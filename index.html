@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>DOM practice</title>
-  </head>
-  <body>
-    <h1>Get User Information</h1>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Information</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>User Information</h1>
+    <div class="controls">
+      <button id="add-user">Add User 👨</button>
+      <button id="double-money">Double Money 💰</button>
+      <button id="show-millionaires">Show Only Millionaires 💵</button>
+      <button id="sort-richest">Sort by Richest ↓</button>
+      <button id="calculate-wealth">Calculate entire Wealth 🏦</button>
+    </div>
+    <div class="results">
+      <h2><strong>Person</strong> Balance($)</h2>
+      <div id="main"></div>
+    </div>
+  </div>
+  <script src="javascript.js"></script>
+</body>
 </html>
